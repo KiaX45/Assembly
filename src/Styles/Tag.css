@@ -1,0 +1,12 @@
+.tag {
+    display: inline-block; /* Permite que los componentes estén en línea */
+    font-size: 16px; /* Tamaño del texto */
+    font-weight: bold; /* Texto en negrita */
+    text-align: center; /* Centrado */
+    padding: 10px 15px; /* Espaciado interno */
+    border-radius: 8px; /* Bordes redondeados */
+    margin: 5px; /* Espaciado externo */
+    text-transform: uppercase; /* Texto en mayúsculas */
+    cursor: default; /* No cambia a puntero de clic */
+  }
+  

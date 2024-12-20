@@ -1,0 +1,17 @@
+.Letter{
+    font-family: 'Arial', sans-serif;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding: 20px;
+
+}
+
+.Letter:disabled{
+    opacity: 0.5;
+    cursor: not-allowed;
+}

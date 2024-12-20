@@ -1,0 +1,57 @@
+.containerMain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    
+}
+
+.containerResult{
+  width: 100%;
+}
+
+.containerWordItems {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.containerLetters {
+  display: flex;
+  flex-wrap: wrap;          
+  justify-content: center;  
+  align-items: center;      
+  gap: 5px;
+  max-width: 800px;                 
+}
+
+button {
+    background-color: #00bfff; /* Color de fondo azul */
+    color: black; /* Color del texto */
+    font-family: Arial, sans-serif; /* Tipografía */
+    font-size: 18px; /* Tamaño de la fuente */
+    padding: 10px 20px; /* Espaciado interno */
+    border: 2px solid white; /* Borde blanco */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Suaviza los cambios */
+  }
+  
+  button:hover {
+    background-color: #009acd; /* Color de fondo más oscuro al pasar el mouse */
+    transform: scale(1.05); /* Ligeramente más grande */
+  }
+  
+  button:active {
+    background-color: #0073a8; /* Color más oscuro al presionar */
+    transform: scale(0.98); /* Ligeramente más pequeño */
+  }
+
+.resetButton {
+  width: 200px;
+  height: 60px;
+}

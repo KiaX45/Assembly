@@ -1,0 +1,13 @@
+.result-message {
+    background-color: #d32f2f; /* Rojo intenso */
+    color: white; /* Texto blanco */
+    font-size: 1.7rem; /* Tamaño de fuente */
+    font-weight: bold; /* Texto en negrita */
+    text-align: center; /* Centrado */
+    padding: 10px 15px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    margin: auto; /* Separación y centrado horizontal */
+    margin-bottom: 40px;
+    max-width: 400px; /* Ancho máximo */
+}
